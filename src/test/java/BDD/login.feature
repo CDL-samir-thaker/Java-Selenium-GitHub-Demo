@@ -1,7 +1,7 @@
 Feature: Login feature
   @smoke
-  Scenario: As a centric os user, i want to login into app
+  Scenario: As a user, I want to login into app
     Given the user is on app
-    When the user clicks on the login button
-#    And enters the credentials
-#    Then user should be able to login
+    When enters the credentials
+    And the user clicks on the login button
+    Then the user should be able to navigate to home page
