@@ -39,7 +39,7 @@ public class Login {
         WebElement text = driver.findElement(By.xpath("//h1[normalize-space()='Logged In Successfully']"));
         String actualElementText = text.getText();
         Assert.assertEquals("Logged In Successfully", actualElementText);
-        driver.get("Logged In Successfully");
+        driver.quit();
     }
 
 }
