@@ -26,6 +26,7 @@ public class Login {
 
     @And("enters the credentials")
     public void entersTheCredentials() {
+        //enter username and password
         WebElement username=driver.findElement(By.id("username"));
         WebElement password=driver.findElement(By.id("password"));
         username.sendKeys("student");
