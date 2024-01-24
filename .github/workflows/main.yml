@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - test-action
   schedule:
     - cron: '2 * * * *'
 
